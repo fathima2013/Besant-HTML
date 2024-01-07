@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index1.css">
+  <title>Besant Training</title>
+</head>
+<body>
+  <div class="mainpart">
+    <div class="mainsub">
+      <div class="part1">
+         <div class="part1log">
+            <h2>Login</h2>
+            <p>Doesn't have an account yet?
+            <a target="_blank" href="./signup.html">Sign Up</a>
+            </p>
+          </div>
+          <br>
+          <br>
+          <div class="part1data">
+            <label>Email Address</label>
+            <br>
+            <input id="emlid" type="email" placeholder="you@example.com"
+                                              onchange="getEmail(event)">
+            <br>
+            <br>
+            <label>Password</label> 
+            <a href="#">Forgot Password?</a>
+            <br>
+            <input id="psswd" type="password" placeholder="Enter 6 characters or more"
+                                              onchange="getPasswd(event)">
+          </div>
+          <br>
+          <div class="part1bttn">
+            <input type="checkbox">Remember Me
+            <br>
+            <br>
+            <button onclick="logIn()">LOGIN</button>
+          </div>
+          <br>
+          <div class="hrt">
+            <hr width="30%">
+            or login with
+            <hr width="30%">
+          </div>
+           
+      </div>
+      <div class="part2">
+
+      </div>
+    </div>
+  </div>
+  <script type = "text/javascript" src="./index.js"></script>
+</body>
+</html>

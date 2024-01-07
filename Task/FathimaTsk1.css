@@ -1,0 +1,33 @@
+.box
+{
+      width: 300px;
+      height: 180px;
+      padding: 10px;
+      background-color: rgb(163, 157, 157);
+      border: 2px solid black;
+      box-sizing: border-box;
+      margin: 10px;
+}
+p
+{
+      text-align: justify;
+}
+h2{
+      text-align: left;
+      margin: 0px;
+}
+button
+{
+      font-weight: bold;
+      background-color: blue;
+      color: white;
+      border:none;
+      width: 100px;
+      height: 25px;
+      margin: 0px;
+}
+.main
+{
+      display: flex;
+      flex-wrap: wrap;
+}

@@ -1,0 +1,76 @@
+.main
+{
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 10px;
+      box-sizing: border-box;
+}
+.part1
+{
+display: flex;
+flex-direction: row;
+}
+.part1img
+{
+      width: 100px;
+      height: 80px;
+      font-size: 20px;
+      margin: 0px;
+      font-weight: 900;
+      color: black;
+      font-family: Arial, Helvetica, sans-serif;
+}
+.part1ul
+{
+      font-size: 16px;
+      color: black;
+      font-weight: bold;
+      font-family: 'Times New Roman', Times, serif;
+}
+label{
+      margin: 10px;
+}
+.part2
+{
+      display: flex;
+      justify-content: flex-end;
+      align-items: start;
+}
+.part2txt:hover
+{
+      font-size: 16px;
+      font-weight: bold;
+      color: black;
+      margin-left: 10px;
+}
+.part2img
+{
+   margin-right: 10px;   
+}
+.part2sub
+{
+      display: flex;
+      margin-left: 10px;  
+}
+.part2subbttn1
+{
+      color: #611f69;
+      font-size: 0.875rem;
+      height: 45px;
+      text-align: center;
+      font-family:  Helvetica,'Segoe UI', Tahoma,Arial,sans-serif;
+      font-weight: 700;
+      border: 0.5px solid #611f69;
+      letter-spacing: .8px;
+}
+.part2subbttn2
+{
+      background-color: white;
+      color: black;
+      font-size: 20px;
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: bold;
+      border: none;
+}

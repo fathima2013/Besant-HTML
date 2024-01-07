@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    <label>FirstName:</label>
+    <input type="text" onchange="getName(event)"
+    id="fname" placeholder="Enter your FirstName">
+     <br><br>
+     <label>PhoneNumber:</label>
+    <input type="number" onchange="getNum(event)" 
+    id="num" placeholder="Enter your PhoneNumber">
+     <br><br>
+     <label>EmailId:</label>
+    <input type="email" onchange="getEmlid(event)" 
+    id="gtemlid" placeholder="you@example.com">
+     <br><br>
+     <label>Password:</label>
+    <input type="password" onchange="getPass(event)"
+    id="gtpswd" placeholder="Enter 6 characters or more">
+     <br><br>
+     <button onclick="registerMe()">REGISTER</button>
+     <script type = "text/javascript" src="./index.js"></script>   
+</body>
+</html>
